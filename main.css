@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.outer {
+    background: url("https://theparenthub.net/wp-content/uploads/2016/08/collegestudents-1140x570.jpg") fixed; 
+    background-size: cover;
+    margin: 0;
+}
+
+.inner {
+	padding: 40px 0px 70px 0px;
+	background: rgba(255, 255, 255, 0.72);
+}
+
+.inner h4 {
+	color: black;
+	text-align: center;
+	width: 75%;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+/*Otro componente*/
+.weAreModules {
+	background: white;
+	width: 300px;
+	padding: 10px;
+	margin: 50px 70px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px -5px rgb(104, 104, 104);
+	transition: 100ms;
+	text-align: center;
+}
+
+.weAreModules:hover {
+	transform: scale(1.03);
+	transition: 100ms;
+}
+
+.weAreModules h3 {
+	margin: 5px 0px 20px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.weAreModules div {
+	height: 200px;
+}
+
+.moduleContainer{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+@media (max-width: 480px){
+    .inner {
+		padding: 20px 0px 40px 0px;
+		background: rgba(255, 255, 255, 0.72);
+	}
+
+	.inner h4 {
+		font-size: 18px;
+    }
+    
+    .weAreModules {
+		background: white;
+		width: 80%;
+		padding: 10px 20px;
+		margin: 30px 10%;
+	}
+
+	.weAreModules h3 {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 1150px){
+    .inner {
+		padding: 20px 0px 40px 0px;
+		background: rgba(255, 255, 255, 0.72);
+	}
+
+	.inner h4 {
+		font-size: 28px;
+    }
+    
+    .weAreModules {
+		background: white;
+		width: 80%;
+		padding: 10px 35px;
+		margin: 35px 10%;
+		text-overflow: ellipsis;
+	}
+
+	.weAreModules h3 {
+		font-size: 35px;
+	}
+}
